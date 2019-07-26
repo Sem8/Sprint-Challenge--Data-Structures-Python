@@ -12,6 +12,7 @@ assigning variables also take O(1) space complexity and since I'm assigning 3 va
 3 ans. Runtime complexity would be O(n) because I have a for loop in the get method. 
 
 4. What is the space complexity of your ring buffer's `get` method?
+4 ans. Space complexity would be O(c) because again because we need to assign a certain amount of space, in this case length of self.capacity for this method, where the c is size of self.capacity.
 
 
 5. What is the runtime complexity of the provided code in `names.py`?
